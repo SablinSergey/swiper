@@ -74,9 +74,9 @@ const Coverflow = {
   setTransition(duration) {
     const swiper = this;
     swiper.slides
-      .transition(duration)
-      .find('.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left')
-      .transition(duration);
+        .transition(duration)
+        .find('.swiper-slide-shadow-top, .swiper-slide-shadow-right, .swiper-slide-shadow-bottom, .swiper-slide-shadow-left')
+        .transition(duration);
   },
 };
 
