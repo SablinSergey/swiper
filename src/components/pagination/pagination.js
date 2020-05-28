@@ -207,6 +207,7 @@ const Pagination = {
       swiper.params.uniqueNavElements
       && typeof params.el === 'string'
       && $el.length > 1
+      && swiper.$el.find(params.el).length === 1
     ) {
       $el = swiper.$el.find(params.el);
     }
